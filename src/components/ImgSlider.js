@@ -67,9 +67,11 @@ const Wrap = styled.div`
     height: 100%;
     box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
       rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 
     &:hover {
       border: 4px solid rgba(249, 249, 249, 0.8);
+      transform: scale(1.01);
     }
   }
 `;
